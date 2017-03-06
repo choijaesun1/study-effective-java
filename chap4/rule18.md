@@ -61,6 +61,7 @@ public interface DoIt {
  - 인터페이스로는 자료형을 정의하고, 구현은 골격 구현 클래스가
  - 관습적으로 골격 구현 클래스의 이름은 Abstract _Interface_ 라 한다.
  - ex)
+ 
  ```JAVA
  // int 배열을 Integer 객체의 리스트 처럼 볼 수 있도록 하는 어댑터 패턴 적용사례
  static List<Integer> intArrayAsList(final int[] a){
