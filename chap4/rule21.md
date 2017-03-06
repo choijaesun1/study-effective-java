@@ -41,6 +41,7 @@ class StringLengthComparator implements Comparator<String>{
   ```
 
   - 실행 가능한 익명 클래스로 정의하는 경우
+  
   ```JAVA
   Arrays.sort(stringArray, new Comparator<String>(){
     public int compare(String s1, String s2){
