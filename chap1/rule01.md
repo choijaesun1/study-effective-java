@@ -11,7 +11,7 @@ public static Boolean valueOf(boolean b) {
 }
 ```
 ### 장점
-####생성자와는 달리 Static Factory Method에는 이름이 있다.
+#### 생성자와는 달리 Static Factory Method에는 이름이 있다.
  - 생성자는 어떤 객체가 만들어지는지 정확하게 알 수 없지만 Static Factory Method는 용도에 따라 작명해줄 수 있으므로 용도를 명확하게 하여 코드의 가독성을 높일 수 있다.
 ```JAVA
 // Constructor
